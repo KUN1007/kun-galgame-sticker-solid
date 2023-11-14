@@ -1,5 +1,5 @@
-import { A } from "solid-start";
-import Counter from "~/components/Counter";
+import { A } from 'solid-start'
+import Counter from '~/components/Counter'
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       <p class="my-4">
         <A href="/about" class="text-sky-600 hover:underline">
           About Page
-        </A>{" "}
+        </A>{' '}
       </p>
     </main>
-  );
+  )
 }

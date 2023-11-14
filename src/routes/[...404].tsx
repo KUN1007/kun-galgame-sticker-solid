@@ -5,5 +5,5 @@ export default function NotFound() {
         Not Found
       </h1>
     </main>
-  );
+  )
 }

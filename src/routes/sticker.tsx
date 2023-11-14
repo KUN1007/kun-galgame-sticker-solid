@@ -1,4 +1,5 @@
 import KUNSticker from "~/components/KUNSticker";
+import CreateKUNStickers from '~/components/CreateKUNSticker'
 
 export default function Sticker() {
   return (
@@ -7,6 +8,7 @@ export default function Sticker() {
         Sticker
       </h1>
       <KUNSticker />
+      <CreateKUNStickers/>
     </main>
   );
 }
